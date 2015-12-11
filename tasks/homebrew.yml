@@ -1,0 +1,15 @@
+---
+- name: install tabs
+  homebrew_tap: tap={{ item }} state=present
+  with_items: homebrew_taps
+
+- name: install packages
+  homebrew: name={{ item }} state=latest
+  with_items: homebrew_packages
+
+- name: install go
+  homebrew: name=go state=latest install_options=cross-compile-all
+
+- name: install cask packages
+  homebrew_cask: name={{ item }} state=installed
+  with_items: homebrew_cask_packages

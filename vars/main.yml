@@ -1,0 +1,143 @@
+homebrew_taps:
+  - caskroom/cask
+  - homebrew/binary
+  - homebrew/completions
+  - satoshun/commands
+  - homebrew/dupes
+  - caskroom/versions
+
+homebrew_packages:
+  - ack
+  - ansible
+  - autoconf
+  - autojump
+  - automake
+  - brew-cask
+  - cairo
+  - docker
+  - docker-compose
+  - docker-machine
+  - ffmpeg
+  - gdb
+  - gettext
+  - git
+  - groonga
+  - imagemagick
+  - jpeg
+  - jq
+  - libevent
+  - libmemcached
+  - libpng
+  - libtool
+  - libxml2
+  - lv
+  - markdown
+  - maven
+  - mecab
+  - mitmproxy
+  - nginx
+  - nkf
+  - openssl
+  - peco
+  - phantomjs
+  - pkg-config
+  - rbenv
+  - readline
+  - reattach-to-user-namespace
+  - ruby-build
+  - sqlite
+  - ssh-copy-id
+  - the_silver_searcher
+  - tig
+  - tmux
+  - tree
+  - w3m
+  - watch
+  - wrk
+
+  # db
+  - memcached
+  - mongodb
+  - mysql
+  - redis
+
+  # node/js
+  - nodebrew
+  - flow
+
+  # Python
+  - python3
+
+  # Android
+  - pidcat
+  - jad
+  - gradle
+  - dex2jar
+
+  # zsh
+  - z
+  - zsh
+  - zsh-completions
+
+  # completion
+  - vagrant-completion
+  - pip-completion
+  - gem-completion
+
+  # langs
+  - rust
+  - scala
+  - ocaml
+  - clisp
+  - ghc
+  - nim
+  - io
+  - erlang
+  - dart
+  - nasm
+
+  # my commands
+  - subpro
+  - subpro-completion
+  - subpro-zcompletion
+  - gog
+
+homebrew_cask_packages:
+  - android-studio
+  - bettertouchtool
+  - bittorrent-sync
+  - dash
+  - dropbox
+  - evernote
+  - firefox
+  - genymotion
+  - gimp
+  - google-chrome
+  - google-chrome-canary
+  - google-drive
+  - google-japanese-ime
+  - google-photos-backup
+  - growl
+  - gyazo
+  - hipchat
+  - iterm2
+  - java
+  - karabiner
+  - keyremap4macbook
+  - mysqlworkbench
+  - send-to-kindle
+  - slack
+  - soundflower
+  - sourcetree
+  - sublime-text3
+  - td-agent
+  - tunnelblick
+  - vagrant
+  - virtualbox
+  - vlc
+
+  # Java
+  - java7
+
+  # - wunderlist
+  # - xtrafinder
