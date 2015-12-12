@@ -101,6 +101,7 @@ homebrew_packages:
   - subpro-completion
   - subpro-zcompletion
   - gog
+  - genymotion_peco
 
 homebrew_cask_packages:
   - android-studio
