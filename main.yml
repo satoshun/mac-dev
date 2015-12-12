@@ -9,3 +9,4 @@
   tasks:
     - include: tasks/homebrew.yml
     - include: tasks/go-install.yml
+    - include: tasks/prezto.yml

@@ -1,0 +1,22 @@
+---
+- name: install prezto
+  git: repo=https://github.com/sorin-ionescu/prezto.git
+       dest={{ ansible_env.HOME }}/.zprezto
+       update=yes
+       recursive=yes
+
+- name: install zaw
+  git: repo=git://github.com/zsh-users/zaw.git
+       dest={{ ansible_env.HOME }}/.zaw
+       update=yes
+
+- name: set setting files
+  command: ln -s {{ ansible_env.HOME }}/.zprezto/runcoms/{{ item }} {{ ansible_env.HOME }}/.{{ item }}
+  with_items:
+    - zlogin
+    - zlogout
+    - zpreztorc
+    - zprofile
+    - zshenv
+    - zshrc
+  ignore_errors: yes
