@@ -12,4 +12,8 @@ $ brew update
 $ brew install ansible
 ```
 
-Run ansible playbook
+Running ansible playbook.
+
+```shell
+$ ansible-playbook main.yml -i inventory
+```

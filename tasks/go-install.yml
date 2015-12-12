@@ -1,0 +1,6 @@
+---
+- name: install go packages
+  shell: go get -u {{ item }}
+  with_items: go_packages
+  args:
+    chdir: "{{ ansible_env.GOPATH }}"

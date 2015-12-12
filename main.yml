@@ -4,6 +4,8 @@
 
   vars_files:
     - vars/main.yml
+    - vars/go.yml
 
   tasks:
     - include: tasks/homebrew.yml
+    - include: tasks/go-install.yml
