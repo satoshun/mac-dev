@@ -1,0 +1,10 @@
+---
+- name: install node
+  command: nodebrew install {{ node_version }}
+
+- name: enable node version
+  command: nodebrew use {{ node_version }}
+
+- name: install npm packages
+  command: npm update -g {{ item }}
+  with_items: npm_packages

@@ -5,8 +5,10 @@
   vars_files:
     - vars/main.yml
     - vars/go.yml
+    - vars/node.yml
 
   tasks:
     - include: tasks/homebrew.yml
     - include: tasks/go-install.yml
     - include: tasks/prezto.yml
+    - include: tasks/node.yml

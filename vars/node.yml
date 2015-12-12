@@ -1,0 +1,22 @@
+node_version: v5.2.0
+
+npm_packages:
+  - appium@
+  - babel
+  - browserify
+  - browserify-handbook
+  - coffee-script
+  - compass
+  - csslint
+  - scss_lint
+  - yo
+  - electron
+  - generator-browserify
+  - generator-typescript
+  - gulp
+  - jscs
+  - jshint
+  - learnyounode
+  - tslint
+  - typescript
+  - webpack
