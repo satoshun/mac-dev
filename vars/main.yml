@@ -107,6 +107,7 @@ homebrew_cask_packages:
   - android-studio
   - bettertouchtool
   - bittorrent-sync
+  - ccleaner
   - dash
   - dropbox
   - evernote
