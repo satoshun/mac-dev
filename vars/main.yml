@@ -104,6 +104,7 @@ homebrew_packages:
   - genymotion_peco
 
 homebrew_cask_packages:
+  - anaconda
   - android-studio
   - bettertouchtool
   - bittorrent-sync

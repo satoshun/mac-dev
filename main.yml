@@ -12,3 +12,4 @@
     - include: tasks/go-install.yml
     - include: tasks/prezto.yml
     - include: tasks/node.yml
+    # - include: tasks/jupyter.yml
